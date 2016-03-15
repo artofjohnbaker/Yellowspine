@@ -1,0 +1,67 @@
+/*---This file overrides, or amends many CSS commands in Bootstrap---*/
+
+/*---General override rules---*/
+
+body {
+    background-color:#001;
+    font-family: 'Montserrat', 'Arial',  sans-serif;
+}
+
+section.fullPanel {
+    border-bottom:3px solid #ccc;
+    border-top:3px solid #ccc;
+    background-color:#fff;
+    padding:0px 0px 3.5em 0px;
+    margin:3em 0px 0px 0px;
+    vertical-align:middle;
+    -webkit-box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.1);
+}
+
+p.error {
+    color:#ff0000;   
+}
+
+/*---Form stuff---*/
+
+/*h2 page title in a form*/
+.container-fluid .row h2#pageTitle {
+    padding:0px 0px 12px 0px;
+    margin:2em 0px 12px 0px;
+    border-bottom:1px solid #222;
+}
+
+form#searchForm {
+    display:block;
+    margin-top:2em;  
+    margin-bottom:2em;
+}
+
+/*---Bootstrap overides---*/
+
+/*take the Bootstrap rounded corners off the navbar*/
+.navbar {
+    border-radius:0;
+}
+
+/*change the navbar branding appearance*/
+.navbar-inverse .navbar-brand {
+    font-size:1.3em;
+    color:#ffcc33;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color:#fe401c;
+}
+
+#myNavbar > ul > li > a {
+    font-size:1.0em;
+    padding:15px 10px;
+}
+
+#myNavbar > ul > li.dropdown.open > ul > li > a:hover {
+    background-color:#444;
+    color:#AECBE8;
+}
+
